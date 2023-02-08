@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SRooms.Service/1.0.0": {
+        "dependencies": {
+          "SRooms.Repository": "1.0.0"
+        },
+        "runtime": {
+          "SRooms.Service.dll": {}
+        }
+      },
+      "SRooms.Core/1.0.0": {
+        "runtime": {
+          "SRooms.Core.dll": {}
+        }
+      },
+      "SRooms.Repository/1.0.0": {
+        "dependencies": {
+          "SRooms.Core": "1.0.0"
+        },
+        "runtime": {
+          "SRooms.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SRooms.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SRooms.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SRooms.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

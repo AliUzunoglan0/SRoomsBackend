@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{C94E2D5F-5034-458F-ADE2-F27A5DDA20B7}|https">
+  <MonoDevelop.Ide.ItemProperties.SRooms.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SRooms.Core/Product.cs">
+    <Files>
+      <File FileName="SRooms.Core/Product.cs" Line="18" Column="1" />
+      <File FileName="SRooms.Core/ProductFeature.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SRoomsApp" expanded="True">
+            <Node name="SRooms.Core" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SRooms.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SRooms.Caching FirstBuild="True" />
+</Properties>

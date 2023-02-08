@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "SRooms.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SRooms.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SRooms.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SRooms.Core/1.0.0": {
+      "type": "project",
+      "path": "../SRooms.Core/SRooms.Core.csproj",
+      "msbuildProject": "../SRooms.Core/SRooms.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "SRooms.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/aliuzunoglan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/SRooms.Repository.csproj",
+      "projectName": "SRooms.Repository",
+      "projectPath": "/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/SRooms.Repository.csproj",
+      "packagesPath": "/Users/aliuzunoglan/.nuget/packages/",
+      "outputPath": "/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/aliuzunoglan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/SRooms.Core.csproj": {
+              "projectPath": "/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/SRooms.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
