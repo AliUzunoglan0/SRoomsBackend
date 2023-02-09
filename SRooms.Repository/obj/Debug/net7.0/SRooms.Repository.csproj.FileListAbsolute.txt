@@ -1,4 +1,5 @@
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Debug/net7.0/SRooms.Repository.deps.json
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Debug/net7.0/SRooms.Repository.runtimeconfig.json
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Debug/net7.0/SRooms.Repository.dll
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Debug/net7.0/SRooms.Repository.pdb
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Debug/net7.0/SRooms.Core.dll
@@ -12,4 +13,5 @@
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Debug/net7.0/SRooms.Repository.dll
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Debug/net7.0/refint/SRooms.Repository.dll
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Debug/net7.0/SRooms.Repository.pdb
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Debug/net7.0/SRooms.Repository.genruntimeconfig.cache
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Debug/net7.0/ref/SRooms.Repository.dll
