@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using SRooms.Core;
 
@@ -16,6 +17,14 @@ namespace SRooms.Repository
 		public DbSet<Product> Products { get; set; }
 
 		public DbSet<ProductFeature> ProductFeatures{ get; set; }
-	}
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+			modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            base.OnModelCreating(modelBuilder);
+        }
+    }
 }
 
