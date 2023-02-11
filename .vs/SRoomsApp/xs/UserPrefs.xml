@@ -1,26 +1,44 @@
-﻿<Properties StartupConfiguration="{C94E2D5F-5034-458F-ADE2-F27A5DDA20B7}|https">
+﻿<Properties StartupConfiguration="{62FF65BF-22C7-4F27-B855-36A785977077}|http">
   <MonoDevelop.Ide.ItemProperties.SRooms.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SRooms.Core/Product.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SRooms.Api/appsettings.Development.json">
     <Files>
-      <File FileName="SRooms.Core/Product.cs" Line="18" Column="1" />
-      <File FileName="SRooms.Core/ProductFeature.cs" />
+      <File FileName="SRooms.Repository/Repositories/GenericRepository.cs" />
+      <File FileName="SRooms.Core/Repositories/IGenericRepository.cs" />
+      <File FileName="SRooms.Core/UnitOfWorks/IUnitOfWork.cs" />
+      <File FileName="SRooms.Repository/UnitOfWork/UnitOfWork.cs" />
+      <File FileName="SRooms.Api/appsettings.Development.json" Line="12" Column="1" />
+      <File FileName="SRooms.Api/Program.cs" Line="27" Column="69" />
+      <File FileName="SRooms.Repository/Seeds/ProductSeed.cs" />
+      <File FileName="SRooms.Repository/Seeds/CategorySeed.cs" />
+      <File FileName="SRooms.Core/Product.cs" />
+      <File FileName="SRooms.Core/BaseEntity.cs" />
+      <File FileName="SRooms.Core/Category.cs" />
+      <File FileName="SRooms.Repository/AppDbContext.cs" />
+      <File FileName="SRooms.Repository/Migrations/20230211010934_Initial.cs" Line="13" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SRoomsApp" expanded="True">
-            <Node name="SRooms.Core" expanded="True" />
+            <Node name="SRooms.Api" expanded="True">
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
+              </Node>
+            </Node>
+            <Node name="SRooms.Repository" expanded="True">
+              <Node name="Migrations" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.SRooms.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SRooms.Caching FirstBuild="True" />
 </Properties>

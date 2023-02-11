@@ -36,7 +36,7 @@ namespace SRooms.Repository.Seeds
 
                 new Product()
                 {
-                    Id = 2,
+                    Id = 3,
                     Name = "Çizgili Defter",
                     CategoryId = 3,
                     Price = 150,
