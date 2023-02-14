@@ -36,7 +36,7 @@ namespace SRooms.Repository.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     Stock = table.Column<int>(type: "int", nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2", nullable: false),
+                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
                     CreateTime = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdateTime = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -89,9 +89,9 @@ namespace SRooms.Repository.Migrations
                 columns: new[] { "Id", "CategoryId", "CreateTime", "Name", "Price", "Stock", "UpdateTime" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2023, 2, 11, 4, 9, 34, 89, DateTimeKind.Local).AddTicks(6710), "Tukenmez Kalem", 200m, 20, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, 2, new DateTime(2023, 2, 11, 4, 9, 34, 89, DateTimeKind.Local).AddTicks(6730), "Çalışma Kitabı", 300m, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, 3, new DateTime(2023, 2, 11, 4, 9, 34, 89, DateTimeKind.Local).AddTicks(6740), "Çizgili Defter", 150m, 15, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1, 1, new DateTime(2023, 2, 14, 23, 37, 53, 89, DateTimeKind.Local).AddTicks(7100), "Tukenmez Kalem", 200m, 20, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, 2, new DateTime(2023, 2, 14, 23, 37, 53, 89, DateTimeKind.Local).AddTicks(7130), "Çalışma Kitabı", 300m, 10, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, 3, new DateTime(2023, 2, 14, 23, 37, 53, 89, DateTimeKind.Local).AddTicks(7140), "Çizgili Defter", 150m, 15, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.CreateIndex(

@@ -108,7 +108,7 @@ namespace SRooms.Repository.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreateTime = new DateTime(2023, 2, 11, 4, 9, 34, 89, DateTimeKind.Local).AddTicks(6710),
+                            CreateTime = new DateTime(2023, 2, 14, 23, 37, 53, 89, DateTimeKind.Local).AddTicks(7100),
                             Name = "Tukenmez Kalem",
                             Price = 200m,
                             Stock = 20,
@@ -118,7 +118,7 @@ namespace SRooms.Repository.Migrations
                         {
                             Id = 2,
                             CategoryId = 2,
-                            CreateTime = new DateTime(2023, 2, 11, 4, 9, 34, 89, DateTimeKind.Local).AddTicks(6730),
+                            CreateTime = new DateTime(2023, 2, 14, 23, 37, 53, 89, DateTimeKind.Local).AddTicks(7130),
                             Name = "Çalışma Kitabı",
                             Price = 300m,
                             Stock = 10,
@@ -128,7 +128,7 @@ namespace SRooms.Repository.Migrations
                         {
                             Id = 3,
                             CategoryId = 3,
-                            CreateTime = new DateTime(2023, 2, 11, 4, 9, 34, 89, DateTimeKind.Local).AddTicks(6740),
+                            CreateTime = new DateTime(2023, 2, 14, 23, 37, 53, 89, DateTimeKind.Local).AddTicks(7140),
                             Name = "Çizgili Defter",
                             Price = 150m,
                             Stock = 15,
@@ -194,8 +194,7 @@ namespace SRooms.Repository.Migrations
 
             modelBuilder.Entity("SRooms.Core.Product", b =>
                 {
-                    b.Navigation("ProductFeature")
-                        .IsRequired();
+                    b.Navigation("ProductFeature");
                 });
 #pragma warning restore 612, 618
         }
