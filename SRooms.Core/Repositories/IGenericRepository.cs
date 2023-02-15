@@ -6,7 +6,7 @@ namespace SRooms.Core.Repositories
 	public interface IGenericRepository<T> where T : class
 	{
         // productRepository.where(x=>x.id>5).OrderBy.ToList() veya Tolistasync methodu çağrılabilir;
-        IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
+        IQueryable<T> GetAll();
 
         Task<T> GetByIdAsync(int id);
 

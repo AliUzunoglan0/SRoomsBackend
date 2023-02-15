@@ -4,9 +4,9 @@ namespace SRooms.Core
 	public class Product:BaseEntity
 	{
 
-        public int Id { get; set; }
+        public new int Id { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
 		public int Stock { get; set; }
 
@@ -14,10 +14,9 @@ namespace SRooms.Core
 
 		public int CategoryId { get; set; }
 
-		public Category Category { get; set; }
+		public Category? Category { get; set; }
 
-		public ProductFeature ProductFeature { get; set; }
+		public ProductFeature? ProductFeature { get; set; }
 
 	}
 }
-

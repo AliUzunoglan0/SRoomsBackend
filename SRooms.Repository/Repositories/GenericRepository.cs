@@ -34,7 +34,7 @@ namespace SRooms.Repository.Repositories
             return await _dBSet.AnyAsync(expression);
         }
 
-        public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
+        public IQueryable<T> GetAll()
         {
             return _dBSet.AsNoTracking().AsQueryable();
         }
