@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "fB01/FX/IlVXd0/t8mf1TJ0NJcb/NxzPG3qkm1bdEnDXT4Pdt8edMvaGin6WMCxdC9F3U8HwwrnrWGWNzlDWYQ==",
+  "dgSpecHash": "L0tyKfMvRhKf1D3tKstLEFdV2fduL15c6+1pWexAJ6hitNV7xMAyhF5+RCgp+uLfzjtcHBv3jrYAK7ph+sDezQ==",
   "success": true,
   "projectFilePath": "/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Service/SRooms.Service.csproj",
   "expectedPackageFiles": [
+    "/Users/aliuzunoglan/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/aliuzunoglan/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/aliuzunoglan/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/aliuzunoglan/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/aliuzunoglan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/Users/aliuzunoglan/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/aliuzunoglan/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/aliuzunoglan/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "/Users/aliuzunoglan/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.0.1/microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "/Users/aliuzunoglan/.nuget/packages/microsoft.entityframeworkcore/7.0.2/microsoft.entityframeworkcore.7.0.2.nupkg.sha512",

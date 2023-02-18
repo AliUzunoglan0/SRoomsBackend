@@ -5,6 +5,8 @@
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Api/bin/Debug/net7.0/SRooms.Api.runtimeconfig.json
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Api/bin/Debug/net7.0/SRooms.Api.dll
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Api/bin/Debug/net7.0/SRooms.Api.pdb
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Api/bin/Debug/net7.0/AutoMapper.dll
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Api/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Api/bin/Debug/net7.0/Azure.Core.dll
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Api/bin/Debug/net7.0/Azure.Identity.dll
 /Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Api/bin/Debug/net7.0/Humanizer.dll
