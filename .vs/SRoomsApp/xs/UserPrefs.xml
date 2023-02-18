@@ -1,28 +1,27 @@
 ﻿<Properties StartupConfiguration="{62FF65BF-22C7-4F27-B855-36A785977077}|http">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SRooms.Core/Product.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SRooms.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SRooms.Core/DTOs/ProductUpdateDto.cs">
     <Files>
-      <File FileName="SRooms.Repository/Seeds/ProductSeed.cs" Line="25" Column="19" />
-      <File FileName="SRooms.Core/Product.cs" Line="23" Column="1" />
-      <File FileName="SRooms.Repository/Seeds/CategorySeed.cs" Line="14" Column="54" />
-      <File FileName="SRooms.Core/Category.cs" Line="3" Column="2" />
-      <File FileName="SRooms.Repository/Migrations/20230214203753_Initial.cs" Line="38" Column="77" />
+      <File FileName="SRooms.Core/DTOs/ProductUpdateDto.cs" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SRoomsApp" expanded="True">
-            <Node name="SRooms.Service" expanded="True" />
+            <Node name="SRooms.Core" expanded="True">
+              <Node name="DTOs" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.SRooms.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.SRooms.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
