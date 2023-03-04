@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{62FF65BF-22C7-4F27-B855-36A785977077}|http">
-  <MonoDevelop.Ide.ItemProperties.SRooms.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.SRooms.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SRooms.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SRooms.Api/Controllers/ProductsController.cs">
     <Files>
-      <File FileName="SRooms.Core/DTOs/CustomResponseDto.cs" Line="19" Column="4" />
-      <File FileName="SRooms.Api/Controllers/ProductsController.cs" Line="33" Column="1" />
+      <File FileName="SRooms.Api/Controllers/ProductsController.cs" Line="39" Column="24" />
+      <File FileName="SRooms.Api/Controllers/BaseController.cs" Line="16" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,12 +17,14 @@
             <Node name="SRooms.Api" expanded="True">
               <Node name="Controllers" expanded="True" />
             </Node>
+            <Node name="SRooms.Core" expanded="True">
+              <Node name="DTOs" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SRooms.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

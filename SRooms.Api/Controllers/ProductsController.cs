@@ -47,6 +47,37 @@ namespace SRooms.Api.Controllers
 
         }
 
+        [HttpPost]
+        public async Task<IActionResult> SaveProduct(ProductDTO productDto)
+        {
+            var product = await service.AddAsync(imapper.Map<Product>(productDto));
+
+            var productsDto = imapper.Map<ProductDTO>(productDto);
+
+            return CreateActionResult<ProductDTO>(CustomResponseDto<ProductDTO>.Success(200, productsDto));
+
+        }
+
+
+        [HttpPut]
+        public async Task<IActionResult> Update(ProductUpdateDto productDto)
+        {
+            await service.UpdateAsync(imapper.Map<Product>(productDto));
+
+            return CreateActionResult(CustomResponseDto<NoContentDto>.Success(204));
+
+        }
+
+        [HttpDelete("id")]
+        public async Task<IActionResult> Remove(int id)
+        {
+            var product = await service.GetByIdAsync(id);
+
+            await service.RemoveAsync(product);
+
+            return CreateActionResult(CustomResponseDto<NoContentDto>.Success(204));
+
+        }
 
 
     }
