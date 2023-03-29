@@ -52,7 +52,7 @@ namespace SRooms.Api.Controllers
         {
             var product = await service.AddAsync(imapper.Map<Product>(productDto));
 
-            var productsDto = imapper.Map<ProductDTO>(productDto);
+            var productsDto = imapper.Map<ProductDTO>(product);
 
             return CreateActionResult<ProductDTO>(CustomResponseDto<ProductDTO>.Success(200, productsDto));
 

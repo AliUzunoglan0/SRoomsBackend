@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SRooms.Repository;
 
@@ -11,9 +12,11 @@ using SRooms.Repository;
 namespace SRooms.Repository.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230329195618_login3")]
+    partial class login3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -83,6 +86,9 @@ namespace SRooms.Repository.Migrations
                     b.Property<int>("FailedLoginAttempts")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("LastLoginTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -108,8 +114,9 @@ namespace SRooms.Repository.Migrations
                         new
                         {
                             Id = 1,
-                            CreateTime = new DateTime(2023, 3, 29, 23, 18, 25, 525, DateTimeKind.Local).AddTicks(7700),
+                            CreateTime = new DateTime(2023, 3, 29, 22, 56, 18, 306, DateTimeKind.Local).AddTicks(9670),
                             FailedLoginAttempts = 0,
+                            LastLoginTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             PasswordHash = "alitayyip",
                             PhoneNumber = "5377110446",
                             UpdateTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -157,7 +164,7 @@ namespace SRooms.Repository.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreateTime = new DateTime(2023, 3, 29, 23, 18, 25, 525, DateTimeKind.Local).AddTicks(7800),
+                            CreateTime = new DateTime(2023, 3, 29, 22, 56, 18, 306, DateTimeKind.Local).AddTicks(9760),
                             Name = "Tukenmez Kalem",
                             Price = 200m,
                             Stock = 20,
@@ -167,7 +174,7 @@ namespace SRooms.Repository.Migrations
                         {
                             Id = 2,
                             CategoryId = 2,
-                            CreateTime = new DateTime(2023, 3, 29, 23, 18, 25, 525, DateTimeKind.Local).AddTicks(7800),
+                            CreateTime = new DateTime(2023, 3, 29, 22, 56, 18, 306, DateTimeKind.Local).AddTicks(9770),
                             Name = "Çalışma Kitabı",
                             Price = 300m,
                             Stock = 10,
@@ -177,7 +184,7 @@ namespace SRooms.Repository.Migrations
                         {
                             Id = 3,
                             CategoryId = 3,
-                            CreateTime = new DateTime(2023, 3, 29, 23, 18, 25, 525, DateTimeKind.Local).AddTicks(7810),
+                            CreateTime = new DateTime(2023, 3, 29, 22, 56, 18, 306, DateTimeKind.Local).AddTicks(9770),
                             Name = "Çizgili Defter",
                             Price = 150m,
                             Stock = 15,

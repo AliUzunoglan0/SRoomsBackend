@@ -2,6 +2,7 @@
 using AutoMapper;
 using SRooms.Core;
 using SRooms.Core.DTOs;
+using SRooms.Core.Models;
 
 namespace SRooms.Service.Mapping
 {
@@ -18,7 +19,9 @@ namespace SRooms.Service.Mapping
 
 			CreateMap<ProductUpdateDto, Product>();
 
-		}
+            CreateMap<Login, LoginDto>().ReverseMap();
+
+        }
 	}
 }
 
