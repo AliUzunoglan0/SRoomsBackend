@@ -18,9 +18,8 @@ namespace SRooms.Repository.Seeds
                 new Login()
                 {
                     Id = 1,
-                    UserId = 4444,
                     PhoneNumber = "5377110446",
-                    PasswordHash = "alitayyip",
+                    Token = "alitayyip",
                     VerificationCode = "bauz",
                     CreateTime = DateTime.Now
                 });
