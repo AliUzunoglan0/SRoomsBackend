@@ -1,41 +1,58 @@
-﻿<Properties StartupConfiguration="{62FF65BF-22C7-4F27-B855-36A785977077}|http">
-  <MonoDevelop.Ide.ItemProperties.SRooms.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SRooms.Api/Controllers/LoginController.cs">
+﻿<Properties StartupConfiguration="{62FF65BF-22C7-4F27-B855-36A785977077}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SRooms.Api/Controllers/ProductsController.cs">
     <Files>
-      <File FileName="SRooms.Api/Controllers/LoginController.cs" Line="17" Column="38" />
-      <File FileName="SRooms.Repository/Seeds/LoginSeed.cs" Line="12" Column="4" />
-      <File FileName="SRooms.Api/Controllers/ProductsController.cs" Line="51" Column="61" />
-      <File FileName="SRooms.Core/Models/Login.cs" Line="10" Column="31" />
-      <File FileName="SRooms.Core/DTOs/LoginDto.cs" Line="18" Column="1" />
-      <File FileName="SRooms.Core/DTOs/ProductDTO.cs" Line="4" Column="25" />
-      <File FileName="SRooms.Core/Models/Product.cs" Line="17" Column="42" />
-      <File FileName="SRooms.Api/Program.cs" Line="26" Column="44" />
+      <File FileName="SRooms.Repository/AppDbContext.cs" />
+      <File FileName="SRooms.Api/Program.cs" />
+      <File FileName="SRooms.Api/appsettings.Development.json" Line="9" Column="8" />
+      <File FileName="SRooms.Api/Controllers/LoginController.cs" Line="27" Column="10" />
+      <File FileName="SRooms.Api/Controllers/ProductsController.cs" Line="28" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SRoomsApp" expanded="True">
             <Node name="SRooms.Api" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="ProductsController.cs" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
             <Node name="SRooms.Core" expanded="True">
-              <Node name="Models" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
             </Node>
-            <Node name="SRooms.Repository" expanded="True" />
+            <Node name="SRooms.Repository" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+            </Node>
             <Node name="SRooms.Service" expanded="True">
-              <Node name="Mapping" expanded="True" />
-              <Node name="Services" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SRooms.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SRooms.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{62FF65BF-22C7-4F27-B855-36A785977077}" ItemName="SRooms.Api" ConfigurationId="https" />
+        <StartupItem ItemId="{C94E2D5F-5034-458F-ADE2-F27A5DDA20B7}" ItemName="SRooms.Web" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.SRooms.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

@@ -1,0 +1,12 @@
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/bin/Release/net7.0/SRooms.Core.deps.json
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/bin/Release/net7.0/SRooms.Core.dll
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/bin/Release/net7.0/SRooms.Core.pdb
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/obj/Release/net7.0/SRooms.Core.csproj.AssemblyReference.cache
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/obj/Release/net7.0/SRooms.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/obj/Release/net7.0/SRooms.Core.AssemblyInfoInputs.cache
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/obj/Release/net7.0/SRooms.Core.AssemblyInfo.cs
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/obj/Release/net7.0/SRooms.Core.csproj.CoreCompileInputs.cache
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/obj/Release/net7.0/SRooms.Core.dll
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/obj/Release/net7.0/refint/SRooms.Core.dll
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/obj/Release/net7.0/SRooms.Core.pdb
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Core/obj/Release/net7.0/ref/SRooms.Core.dll

@@ -1,0 +1,17 @@
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Release/net7.0/SRooms.Repository.deps.json
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Release/net7.0/SRooms.Repository.runtimeconfig.json
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Release/net7.0/SRooms.Repository.dll
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Release/net7.0/SRooms.Repository.pdb
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Release/net7.0/SRooms.Core.dll
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/bin/Release/net7.0/SRooms.Core.pdb
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/SRooms.Repository.csproj.AssemblyReference.cache
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/SRooms.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/SRooms.Repository.AssemblyInfoInputs.cache
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/SRooms.Repository.AssemblyInfo.cs
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/SRooms.Repository.csproj.CoreCompileInputs.cache
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/SRooms.Repository.csproj.CopyComplete
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/SRooms.Repository.dll
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/refint/SRooms.Repository.dll
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/SRooms.Repository.pdb
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/SRooms.Repository.genruntimeconfig.cache
+/Users/aliuzunoglan/Projects/SRoomsApp/SRooms.Repository/obj/Release/net7.0/ref/SRooms.Repository.dll
